@@ -1,13 +1,14 @@
 #FUNCIONES DE UTILIDAD Y CONSTANTES
+import random
 # Constantes del juego
 
 # Dimensiones de la ventana
-ANCHO = 400
-ALTO = 500
+ANCHO = int(input('Ingrese el ancho de la pantalla: '))
+ALTO = int(input('Ingrese el alto de la pantalla: '))
 TAMANO_CELDA = 30
-FILAS = 10
-COLS = 10
-NUM_MINAS = 15
+FILAS = int(input('Ingrese filas: '))
+COLS = int(input('Ingrese ecolumnas: '))
+NUM_MINAS = random.randint(1, (FILAS*COLS)/4)
 MARGEN_SUPERIOR = 100  # Espacio para mostrar contadores
 
 # Colores
