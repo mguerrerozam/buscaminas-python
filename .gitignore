@@ -1,4 +1,16 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VSCode settings
+.vscode/
+
+# Environment
 .env
-.DS_Store
+.venv/
