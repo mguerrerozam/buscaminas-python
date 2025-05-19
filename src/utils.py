@@ -8,7 +8,7 @@ ALTO = int(input('Ingrese el alto de la pantalla: '))
 TAMANO_CELDA = 30
 FILAS = int(input('Ingrese filas: '))
 COLS = int(input('Ingrese ecolumnas: '))
-NUM_MINAS = random.randint(1, (FILAS*COLS)/4)
+NUM_MINAS = random.randint(1, int((FILAS*COLS)/4))
 MARGEN_SUPERIOR = 100  # Espacio para mostrar contadores
 
 # Colores
