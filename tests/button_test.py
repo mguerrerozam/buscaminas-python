@@ -1,6 +1,8 @@
 #ARCHIVO CREADO ÚNICAMENTE PARA PROBAR LA CLASE "BUTTON" DEFINIDA RECIENTEMENTE (FECHA 21-05)
 import pygame
 import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.game.utils import COLORES
 from src.ui.button import Button
 
