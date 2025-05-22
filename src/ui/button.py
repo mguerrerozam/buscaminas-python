@@ -1,7 +1,7 @@
 #CÓDIGO DE LA CLASE "BOTÓN"
 import pygame
 
-class button: #DEFINIMOS LA CLASE  
+class Button: #DEFINIMOS LA CLASE  
     def __init__(self, texto, pos, tamaño, fuente, color_fondo, color_texto, color_hover=None, accion=None):
         #PARÁMETROS DE LA CLASE
         self.texto=texto
